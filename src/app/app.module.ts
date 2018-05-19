@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
 
+// TEMPORAL
+import { FormsModule } from '@angular/forms';
+
 // Rutas
 import { APP_ROUTES } from './app.routes';
 
@@ -22,6 +25,7 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     PagesModule,
     SharedModule,
+    FormsModule,
     APP_ROUTES
   ],
   providers: [],
